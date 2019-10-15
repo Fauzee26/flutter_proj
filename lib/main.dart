@@ -16,7 +16,7 @@ class TampilanUtama extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("First App"),
+        title: Text("Aplikasi pertama"),
       ),
       body: Center(
         child: Column(
@@ -30,13 +30,13 @@ class TampilanUtama extends StatelessWidget {
                 style: TextStyle(fontSize: 20.0, color: Colors.black),
               ),
               ListTile(
-                title: Text("hilmy2602@gmail.com"),
+                title: Text("farras.doko@gmail.com"),
                 leading: Icon(
                   Icons.email
                 ),
               ),
               ListTile(
-                title: Text("+62 81234567890"),
+                title: Text("+62 81371423982"),
                 leading: Icon(
                     Icons.phone
                 ),
